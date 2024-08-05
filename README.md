@@ -15,3 +15,10 @@ To use this template, you need to have LaTeX installed on your system. If you do
 
 Alternatively, you can use [Overleaf](https://www.overleaf.com/), an online LaTeX editor. Simply upload the files to a new project in Overleaf to get started without installing anything locally.
 
+##Customization
+
+The template is structured to be easy to modify. Here are some tips for customization:
+
+- `Personal Information`: Modify the personal information section at the top of the Resume_RAMY_LAIB.tex file to include your name, contact information, and any other details you wish to display.
+- `Sections`: The resume is divided into sections such as Education, Experience, Skills, etc. You can add, remove, or reorder these sections as needed.
+- `Styling`: If you wish to change the styling of the resume, you can modify the resume.cls file. This file contains all the style definitions used in the template.
