@@ -1,0 +1,122 @@
+\documentclass{resume}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Utilisation d'une police qui gère bien les caractères accentués
+\usepackage{paralist}
+\usepackage[a3paper,left=0.9in,top=0.9in,right=0.9in,bottom=0.9in]{geometry}
+\usepackage{pifont}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{arydshln}
+\usepackage[french]{babel}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Ramy Laib} % Your name
+\address{\href{tel:+33636206685}{06 36 20 66 85} , Bures-sur-Yvette, Île-de-France, France} 
+\address{
+    \href{mailto:Ramy.laib@proton.me}{\raisebox{-2pt}{\includegraphics[height=1.25em]{../Ressource/email.png}} Ramy.laib@proton.me} \hspace{0.5em} \\
+    \hspace{0.5em}\href{https://linkedin.com/in/ramy-laib1618033989}{\includegraphics[height=1.25em]{../Ressource/linkedin.png} LinkedIn} \hspace{0.5em}  \\
+    \hspace{0.5em}\href{https://github.com/Laib-Ramy}{\includegraphics[height=1em]{../Ressource/github.png} GitHub} \hspace{0.5em} 
+}
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	OBJECTIF
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIF}
+
+{Ingénieur spécialisé en systèmes et réseaux avec une passion pour l'innovation technologique, visant à exploiter mes compétences dans les environnements basés sur Linux, le développement backend avec Python et C, et les technologies de calcul haute performance. Recherche un poste stimulant dans une organisation dynamique où je pourrai contribuer à des projets impactants et continuer à évoluer professionnellement.}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	FORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{FORMATION}
+
+{\bf Master en Systèmes et Réseaux Informatiques},  \href{https://www.universite-paris-saclay.fr/}{Université Paris-Saclay\includegraphics[height=1.5em]{../Ressource/petitlogo.png}} \hfill {2022-2024}\\
+Cours pertinents : Architecture orientée services, Calcul haute performance (C, OMP, Pthread, MPI, CUDA), Administration des systèmes et réseaux, Systèmes de gestion de bases de données, Recherche opérationnelle, Science des données (Python).
+
+{\bf Master en Réseaux, Mobilité et Systèmes Embarqués},\href{https://www.ummto.dz/}{U.M.M.T.O\includegraphics[height=1em]{../Ressource/ummto.png}}\hfill {2022}\\
+Cours pertinents : Sécurité des réseaux, Architectures parallèles et systèmes distribués (C, OMP, Pthread, MPI, CUDA), Réseaux mobiles, Interfaces des systèmes embarqués, Assembleur ARM.\\
+Gagnant du CTF dumodule de sécurité.
+
+{\bf Licence en Informatique : Systèmes Informatiques}, \href{https://www.ummto.dz/}{U.M.M.T.O\includegraphics[height=1em]{../Ressource/ummto.png}}\hfill {2018-2021}\\
+Cours pertinents : Algorithmes, Python, Java, C, Systèmes d'exploitation, Sécurité des systèmes d'information, Développement web, Développement mobile, Assembleur ARM.
+Membre du club d'informatique.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% COMPÉTENCES TECHNIQUES
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Compétences \& Talents}
+    \begin{tabularx}{\textwidth}{ @{} >{\bfseries}l @{\hspace{3ex}} X @{} }
+    Langages de programmation & C (HPC, Programmation parallèle), Python (scikit-learn, Flask,...), Java, JavaScript \\
+    
+    Outils & Docker, Ansible, Git, Bash, VMware, VirtualBox, Jenkins, Kubernetes, Terraform, Grafana\\
+    
+    Bases de données & OracleDB, MongoDB, SQL \\
+    
+    Développement web & HTML, CSS, JavaScript, Flask, API RESTful, ProtoBUF \\
+    
+    Sécurité & Metasploit, Nmap, Nessus, ISO 2700x, Mehari\\
+    
+    Réseautique & TCP/IP, Modèle OSI, Wireshark, AWS\\
+    
+    Compétences interpersonnelles & Excellente communication orale et écrite, méthodologies Agile et Scrum, JIRA, maîtrise de LaTeX, Word, Excel, adaptation rapide à de nouveaux environnements, solides compétences en résolution de problèmes \\
+    
+    \end{tabularx}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXPÉRIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Expérience}
+
+\textbf{Développeur Full Stack - Stagiaire} \hfill Fév 2024 - Août 2024\\
+\href{https://www.advanthink.com}{\includegraphics[height=1em]{../Ressource/Logo Symbol A en couleur.png}} AdvanThink (isoft)\hfill \textit{Saint-Aubin, FR}
+ \begin{itemize}
+    \itemsep -3pt {} 
+    \item Analyse du système existant et conception d'une architecture orientée services pour l'exécution par lots, améliorant l'efficacité de 60 \%.
+    \item Développement de scripts DevOps pour l'automatisation de la configuration des services, réduisant le temps de configuration de 50 \%.
+    \item Réalisation d'un mémoire de recherche sur l'optimisation de l'architecture logicielle utilisant les services et microservices.
+ \end{itemize}
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	PROJETS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Projets}
+\vspace{-1.25em}
+    \item \textbf{Conception d'une poubelle intelligente} Développement d'un système IoT utilisant l'IA pour détecter et trier avec précision les déchets médicaux avec un taux de précision de 85 \%. Le système a été construit avec des microcontrôleurs Arduino et ESP32, intégrés avec des modèles TensorFlowJS pour le traitement en temps réel. Mise en œuvre du protocole MQTT pour la messagerie légère et de Node-RED pour la programmation basée sur les flux, assurant une intégration et un traitement fluides des données. Hébergement de la solution sur AWS IoT Core pour gérer et étendre efficacement la connectivité des appareils.
+    
+    \item \textbf{Implémentation d'un réseau de neurones en C} Développement d'un réseau de neurones en C pour la classification, incluant l'initialisation aléatoire des poids et biais, l'implémentation de la fonction d'activation sigmoïde, et la propagation avant/rétropropagation pour l'apprentissage supervisé.
+    
+    \item \textbf{Système de gestion de bibliothèque intégré} Conception et déploiement d'un système complet de gestion de bibliothèque visant à optimiser l'efficacité de recherche de livres de 40 \%. Utilisation de Python avec le framework Flask pour le développement backend, incorporant ProtoBUF pour la sérialisation efficace des données et Celery pour la planification des tâches. Gestion d'une base de données à grande échelle de plus de 10 000 livres, assurant une intégrité robuste des données.
+    
+    \item \textbf{Migration OracleDB vers MongoDB} Direction de l'installation, de la configuration et de la migration d'une base de données Oracle sur Oracle Linux 8 vers MongoDB, entraînant une réduction de 50 \% des temps de réponse aux requêtes. Développement et exécution de scripts de migration personnalisés pour assurer un transfert de données sans interruption ni perte de données. Mise en œuvre de la structure orientée documents de MongoDB pour améliorer l'évolutivité et les performances.
+    
+    \item \textbf{Architecture réseau résiliente pour campus} Conception, configuration et déploiement d'un réseau campus résilient, optimisé pour des performances élevées. Utilisation de VMware pour la virtualisation, Cumulus Linux pour la gestion du réseau, et mise en œuvre de pare-feux ACL pour la sécurité. Intégration de l'automatisation avec Ansible et garantie de la tolérance aux pannes avec LACP (Link Aggregation Control Protocol) et MLAG (Multi-Chassis Link Aggregation) aux niveaux d'accès, d'agrégation et du cœur. Cette configuration a entraîné une amélioration de 30\% du temps de disponibilité du réseau, ainsi qu'une meilleure redondance et fiabilité du réseau.
+    
+    \item \textbf{Sécurité et pare-feu sur OpenBSD} Administration de la sécurité des systèmes et des réseaux en déployant un pare-feu Packet Filter sur OpenBSD, assurant une protection robuste contre les menaces potentielles. Intégration de mécanismes de tolérance aux pannes utilisant CARP (Common Address Redundancy Protocol) et PFsync pour synchroniser les tables d'état du pare-feu sur plusieurs nœuds, améliorant la fiabilité et la posture de sécurité du réseau.
+    
+    \item \textbf{Analyse de données} Réalisation d'un projet d'analyse de données basé sur Python visant à améliorer la précision de classification de 20 \% grâce à des techniques avancées telles que le clustering, l'analyse canonique des corrélations et l'analyse en composantes principales. Analyse de jeux de données de plus de 1 million d'enregistrements, utilisant pandas pour la manipulation des données et matplotlib pour l'exploration visuelle des données.
+\end{rSection} 
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Activités Extracurriculaires} 
+    \begin{inparaenum}[|]
+        \item Leetcode et EulerProject pour le plaisir
+        \item Passionné de l'univers de Tolkien
+        \item Amateur de cinéma
+        \item SSIAP (job étudiant)
+    \end{inparaenum}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

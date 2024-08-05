@@ -1,0 +1,143 @@
+\documentclass{resume}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % Utilisation d'une police qui gère bien les caractères accentués
+\usepackage{paralist}
+\usepackage[a3paper,left=0.9in,top=-0.2in,right=0.6in,bottom=0.5in]{geometry}
+\usepackage{pifont}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{arydshln}
+\usepackage{pagecolor}
+\usepackage{tikz}
+\usepackage[english]{babel}
+\usepackage[inline]{enumitem}
+
+\definecolor{myuniversity}{RGB}{116,28,76}
+\definecolor{myblue}{RGB}{146,166,219}
+\setlist[enumerate,1]{label=|}
+\begin{document}
+\noindent\makebox[\textwidth]{
+\begin{tikzpicture}[remember picture,overlay]
+    
+    % Define the gradient from grey to white
+    \fill[draw=white,left color=myblue!70,right color=white] (-16, 1) rectangle (\paperwidth , -\paperheight);
+    \node[anchor=north west, inner sep=0] at (2, 0){};
+\end{tikzpicture}
+} 
+\customcontactinfo
+  {Ramy LAIB} % Name
+  {\includegraphics[height=1em]{../Ressource/address.png} 135b Rte de chartres, Bures-sur-Yvette, Île-de-France, France} % Address 
+  {\href{mailto:Ramy.laib@proton.me}{\raisebox{-2pt}{\includegraphics[height=1.25em]{../Ressource/email.png}} Ramy.laib@proton.me}}                 % Email
+  {\href{https://linkedin.com/in/ramy-laib1618033989}{\includegraphics[height=1.25em]{../Ressource/linkedin.png} LinkedIn}\phantom{https://linkedin.com/in/ramy-laib1618033989}}  % LinkedIn
+  {\href{https://github.com/Laib-Ramy}{\includegraphics[height=1.25em]{../Ressource/github.png} GitHub}\phantom{https://github.com/Laib-Ramy}}  % GitHub
+  {\href{tel:+33636206685}{\raisebox{-2pt}{\includegraphics[height=1em]{../Ressource/tel.png}} 06 36 20 66 85}}
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\vspace{-2em}
+\begin{rSection}{Summary}
+
+{Engineer specialized in systems and networks with a passion for technological innovation, aiming to leverage my skills in Linux-based environments, backend development with Python and C, and high-performance computing technologies. Seeking a challenging position in a dynamic organization where I can contribute to impactful projects and continue to grow professionally.}
+
+\end{rSection}
+\vspace{-0.75em}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Experience}
+
+    \textbf{Full Stack Developer Intern} \hfill Feb 2024 - Aug 2024\\
+    \href{https://www.advanthink.com}{\includegraphics[height=1em]{../Ressource/Logo Symbol A en couleur.png}} AdvanThink(isoft)\hfill \textit{Saint-Aubin, FR}
+     \begin{itemize}
+        \itemsep -3pt {} 
+        \item Analyzed the existing system and designed a service-oriented architecture for batch execution, improving efficiency by 60\%.
+        \item Developed DevOps scripts for service configuration automation, reducing setup time by 50\%.
+        \item Completed a research thesis on optimizing software architecture using services and microservices.
+     \end{itemize}
+    \end{rSection} 
+    \vspace{-0.75em}
+\begin{rSection}{Education}
+
+{\large \bf Master's Computer Systems and Networks},  \href{https://www.universite-paris-saclay.fr/}{Université Paris-Saclay\includegraphics[height=1.5em]{../Ressource/petitlogo.png}} \hfill {2022-2024}\\
+Relevant Courses: Service-Oriented Architecture, High-Performance Computing (C, OMP, Pthread, MPI, CUDA), Systems and Network Administration, Database Management Systems, Operations Research, Data Science (Python).
+
+{\large \bf Master's Networks, Mobility, and Embedded Systems},\href{https://www.ummto.dz/}{U.M.M.T.O\includegraphics[height=1em]{../Ressource/ummto.png}}\hfill {2022}\\
+Relevant Courses: Network Security, Parallel Architectures and Distributed Systems (C, OMP, Pthread, MPI, CUDA), Mobile Networks, Embedded Systems Interfaces ,ARM assembly.\\
+Winner of the Security module CTF.
+
+{\large \bf Bachelor's Computer Science: Computer Systems}, \href{https://www.ummto.dz/}{U.M.M.T.O\includegraphics[height=1em]{../Ressource/ummto.png}}\hfill {2018-2021}\\
+Relevant Courses: Algorithms, Python, Java, C, Operating Systems, Information Systems Security ,Web Development ,Mobile Development ,ARM assembly.
+Member of the Computer Science Club.
+\end{rSection}
+\vspace{-0.75em}
+%----------------------------------------------------------------------------------------
+% TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+    \vspace{-0.25em}
+    \newcommand\tab[1][1cm]{\hspace*{#1}}
+\begin{itemize}[leftmargin=*,label= ]
+    \item \textbf{\large Smart Trash Can Design} \\    \tab Developed an Innovative IoT Solutions leveraging AI to detect and accurately sort medical waste with an 85\% accuracy rate. The system was built using Arduino and ESP32 microcontrollers, blended with TensorFlowJS models for real-time AI Data Processing. Applied MQTT protocol for lightweight messaging and Node-RED for flow-based programming, ensuring seamless data integration and processing. Hosted the solution on AWS IoT Core to manage and scale device connectivity effectively.
+    
+    \item \textbf{\large Neural Network Implementation in C} \\    \tab Algorithm Optimization Project where i developed a Custom Neural Network Architectures in C for classification, including random initialization of weights and biases, implementation of the sigmoid activation function, and forward/backpropagation for supervised learning.
+    
+    \item \textbf{\large Integrated Library Management System} \\     \tab  Engineered and deployed a Efficient Data Management Solutions for library management, aimed at optimizing book lookup efficiency by 40\%. Utilized Python with Flask framework for backend development, incorporating ProtoBUF for efficient data serialization and Celery for task scheduling. Managed a large-scale database of over 10,000 books, ensuring robust data integrity.
+    
+    \item \textbf{\large OracleDB to MongoDB Migration} \\    \tab  Led the installation, configuration, and migration of an Oracle database on Oracle Linux 8 to MongoDB, resulting in a 50\% reduction in query response times. Developed and executed customized migration scripts to ensure Seamless Database Migration and zero data loss during the transition. Implemented MongoDB's document-oriented structure to Enhanced Data Scalability and performance.
+    
+    \item \textbf{\large Resilient Campus Architecture Network} \\    \tab  Designed, configured, and deployed a resilient campus network optimized for high performance. Utilized VMware for virtualization, Cumulus Linux for network management, and implemented ACL firewalls for security. Integrated automation with Ansible and ensured fault tolerance with LACP (Link Aggregation Control Protocol) and MLAG (Multi-Chassis Link Aggregation) across access, aggregation, and core levels. This setup resulted in a 30\% improvement in network uptime and enhanced network redundancy and reliability.
+    
+    \item \textbf{\large Security and Firewall on OpenBSD} \\     \tab  Administered system and network security by deploying Packet Filter firewall on OpenBSD, ensuring robust protection against potential threats. Incorporated Proactive Fault Tolerance mechanisms using CARP (Common Address Redundancy Protocol) and PFsync to synchronize firewall state tables across multiple nodes, enhancing network reliability and security posture.
+    
+    \item \textbf{\large Data Analysis} \\     \tab Completed a Python-based Advanced Data Analytics project focusing on improving classification and Predictive Modeling accuracy by 20\% through advanced techniques such as clustering, canonical correlation analysis, and principal component analysis. Analyzed datasets with over 1 million records, leveraging pandas for data manipulation and matplotlib for visual data exploration.
+\end{itemize}
+\end{rSection} 
+\vspace{-0.75em}
+\begin{rSection}{Skills \& Talents}
+    \vspace{-0.25em}
+    \begin{tabularx}{\textwidth}{ @{} >{\bfseries}l @{\hspace{3ex}} X @{} }
+    Programming Languages & C (HPC,ParralelProgramming), Python(scikit-learn,Flask,...), Java, JavaScript \\
+    
+    Tools & Docker, Ansible, Git, Bash, VMware, VirtualBox ,Jenkins ,Kubernetes ,Terraform ,Grafana\\
+    
+    Databases & OracleDB, MongoDB, SQL ,\\
+    
+    Web Development & HTML,CSS,JavaScript,Flask, RESTful API ,ProtoBUF \\
+    
+    Security & Metasploit, Nmap, Nessus ,ISO 2700x,Mehari\\
+    
+    Networking & TCP/IP, OSI Model ,Wireshark ,AWS\\
+    
+    Interpersonal Skills & Strong oral and written communication, Agile and Scrum methodologies ,JIRA , proficiency in LaTeX, Word, Excel, quick adaptation to new environments, sharp problem-solving skills \\
+    
+    \end{tabularx}
+\end{rSection}
+\vspace{-0.75em}
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extracurricular Activities} 
+    \vspace{-0.25em}
+    \begin{enumerate*}
+        \item Leetcode and EulerProject for fun
+        \item Tolkien lore enthusiast
+        \item Cinema lover
+        \item SSIAP (student job)
+        \item Passionate about Technological Innovations
+    \end{enumerate*}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
