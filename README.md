@@ -22,3 +22,25 @@ The template is structured to be easy to modify. Here are some tips for customiz
 - `Personal Information`: Modify the personal information section at the top of the Resume_RAMY_LAIB.tex file to include your name, contact information, and any other details you wish to display.
 - `Sections`: The resume is divided into sections such as Education, Experience, Skills, etc. You can add, remove, or reorder these sections as needed.
 - `Styling`: If you wish to change the styling of the resume, you can modify the resume.cls file. This file contains all the style definitions used in the template.
+
+MIT License
+
+Copyright (c) [2024] [Laib Ramy]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
