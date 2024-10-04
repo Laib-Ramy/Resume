@@ -20,23 +20,30 @@
 
 \ProvidesClass{resume}[2010/07/10 v0.9 Resume class]
 
-\LoadClass[12pt]{article} % Font size and paper type
+\LoadClass[12pt]{report} % Font size and paper type
 
 \usepackage[parfill]{parskip} % Remove paragraph indentation
 \usepackage{array} % Required for boldface (\bf and \bfseries) tabular columns
 \usepackage{ifthen} % Required for ifthenelse statements
 \usepackage{xcolor}
 \usepackage{hyperref}
+\usepackage{pagecolor}
+\usepackage{tikz}
+\large
 \hypersetup{
     colorlinks=true,
     linkcolor=linkcolor,
     filecolor=magenta,      
     urlcolor=linkcolor,
 }
+
+
+
 % Définition de la couleur de fond
 \definecolor{linkcolor}{RGB}{5, 94, 170}
-\definecolor{black}{RGB}{255,255,255}
-\pagestyle{empty} % Suppress page numbers
+\definecolor{black}{RGB}{0,0,0}
+\definecolor{myuniversity}{RGB}{116,28,76}
+\pagestyle{empty}
 
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
@@ -81,7 +88,14 @@
     \nameskip\break
   \endgroup
 }
-
+\newcommand{\customcontactinfo}[6]{
+      \begin{tabularx}{\textwidth}{l@{\extracolsep{7cm}}l}
+        \textbf{\Huge #1} & \\
+        #2 & #3\\
+        #6 & #4\\
+           & #5\\
+      \end{tabularx}
+}
 %----------------------------------------------------------------------------------------
 %	PRINT THE HEADING LINES
 %----------------------------------------------------------------------------------------
@@ -105,7 +119,7 @@
 % Defines the rSection environment for the large sections within the CV
 \newenvironment{rSection}[1]{ % 1 input argument - section name
   \sectionskip
-  \MakeUppercase{{\bf #1}} % Section title
+  \textcolor{myuniversity}{\large\bfseries\MakeUppercase{#1}} % Section title
   \sectionlineskip
   \hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section

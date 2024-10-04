@@ -89,7 +89,7 @@
   \endgroup
 }
 \newcommand{\customcontactinfo}[6]{
-      \begin{tabularx}{\textwidth}{l@{\extracolsep{9cm}}l}
+      \begin{tabularx}{\textwidth}{l@{\extracolsep{7cm}}l}
         \textbf{\Huge #1} & \\
         #2 & #3\\
         #6 & #4\\
