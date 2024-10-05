@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.24)  4 OCT 2024 21:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.24)  5 OCT 2024 08:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -652,15 +652,15 @@ Package rerunfilecheck Info: File `CV_LAIB-Ramy.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21892 strings out of 474136
- 408176 string characters out of 5748496
+ 21890 strings out of 474136
+ 408110 string characters out of 5748496
  1964190 words of memory out of 5000000
- 43842 multiletter control sequences out of 15000+600000
+ 43840 multiletter control sequences out of 15000+600000
  596790 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,13n,121p,638b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,13n,121p,638b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on CV_LAIB-Ramy.pdf (1 page, 270495 bytes).
+Output written on CV_LAIB-Ramy.pdf (1 page, 270455 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
